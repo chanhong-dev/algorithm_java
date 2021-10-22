@@ -1,3 +1,5 @@
+package Java1;
+
 import java.util.*;
 
 public class Java1_1 {
