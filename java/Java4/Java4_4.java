@@ -1,9 +1,17 @@
 package Java4;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Java4_4 {
     public int solution(String S, String T){
+        int count = 0;
+        HashMap<Character, Integer> HM1 = new HashMap<>();
+        HashMap<Character, Integer> HM2 = new HashMap<>();
+
+        for (char c : T.toCharArray()) {
+            HM2.put(c, HM2.getOrDefault(c, 0) + 1);
+        }
 
         return 0;
     }
